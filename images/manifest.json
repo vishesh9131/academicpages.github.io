@@ -1,0 +1,19 @@
+{
+	"name": "Vishesh Yadav",
+	"short_name": "Vishesh Yadav",
+	"description": "Research Assistant at IISc Bangalore (AIREX Lab). Academic Pages comparison sample.",
+	"start_url": "/academicpages.github.io",
+	"lang": "en-US",
+	"icons": [
+		{
+			"src": "/images/favicon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/images/favicon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
