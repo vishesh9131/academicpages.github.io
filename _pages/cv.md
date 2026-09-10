@@ -11,54 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.C.A. (Hons) Artificial Intelligence
+* Research work at Indian Institute of Science (IISc) Bangalore
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Research Assistant — IISc Bangalore, CDS / AIREX Lab
+  * Advisor: Prof. Sashikumaar Ganesan
+  * Computational modeling, language modeling, ML; defense-oriented applications (DRDO)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* NVIDIA — TEGRA team
+  * Data / ML work tied to autonomous driving (DriveNet pipeline)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Open source / product
+  * CoreRec, BHASA, oioi, SLYRIC; Apple AxLearn contributions
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python, ML systems, recommender stacks
+* State-space / Mamba-style language modeling
+* Edge / realtime ML (sign language, lightweight utilities)
+* Research engineering and open-source packaging (PyPI)
 
-Publications
+Publications / projects
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Portfolio
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+  <ul>{% for post in site.portfolio %}
+    {% include archive-single.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
